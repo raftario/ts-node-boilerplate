@@ -105,3 +105,6 @@ dist
 
 # TSC build output
 dist/
+
+# npm lockfile
+package-lock.json

@@ -5,6 +5,8 @@
     "author": "Raphaël Thériault <raphael_theriault@outlook.com>",
     "main": "src/index.ts",
     "license": "MIT",
+    "homepage": "https://github.com/raftario/ts-node-boilerplate",
+    "repository": "raftario/ts-node-boilerplate",
     "scripts": {
         "start": "ts-node src/index.ts",
         "start:dev": "ts-node-dev src/index.ts",
