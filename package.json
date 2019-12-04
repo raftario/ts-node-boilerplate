@@ -10,6 +10,7 @@
     "scripts": {
         "start": "ts-node src/index.ts",
         "start:dev": "ts-node-dev src/index.ts",
+        "start:prod": "ts-node --transpile-only src/index.ts",
         "build": "tsc",
         "lint": "eslint --fix **/*.{ts,js} && prettier --write **/*.{json,md,yml}",
         "lint:check": "eslint **/*.{ts,js} && prettier --check **/*.{json,md,yml}"

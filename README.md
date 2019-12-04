@@ -19,6 +19,7 @@ This is my personal boilerplate for TypeScript projects running on Node. Apart f
 
 -   `start` - Start the project using ts-node
 -   `start:dev` - Start the project with hot reloading enabled using ts-node-dev
+-   `start:prod` - Start the project using ts-node with production settings
 -   `build` - Transpile the code to JavaScript
 -   `lint` - Run linters and fix issues
 -   `lint:check` - Run linters and check for issues
