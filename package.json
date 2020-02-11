@@ -16,7 +16,7 @@
         "lint:check": "eslint **/*.{ts,js} && prettier --check **/*.{json,md,yml}"
     },
     "dependencies": {
-        "@types/node": "^12.12.26",
+        "@types/node": "^12.12.27",
         "ts-node": "^8.6.2",
         "typescript": "^3.7.5"
     },
