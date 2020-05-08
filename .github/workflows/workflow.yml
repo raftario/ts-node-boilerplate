@@ -4,9 +4,11 @@ jobs:
     lint:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v1
+            - uses: actions/checkout@v2
             - uses: actions/setup-node@v1
-            - name: "Install dependencies"
+              with:
+                  node_version: 12.x
+            - name: Install dependencies
               run: yarn
-            - name: "Check lints"
+            - name: Check for linting errors
               run: yarn lint:check
