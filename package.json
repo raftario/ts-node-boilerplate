@@ -6,7 +6,7 @@
     "main": "src/index.ts",
     "license": "MIT",
     "engines": {
-        "node": ">=8"
+        "node": ">=12"
     },
     "scripts": {
         "dev": "ts-node-dev src/index.ts",
