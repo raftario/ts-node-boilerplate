@@ -15,7 +15,6 @@
         "prettier/prettier": 1,
 
         "unicorn/better-regex": 1,
-        "unicorn/catch-error-name": 1,
         "unicorn/consistent-function-scoping": 2,
         "unicorn/custom-error-definition": 2,
         "unicorn/error-message": 2,
