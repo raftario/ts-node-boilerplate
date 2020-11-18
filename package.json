@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "description": "Personal TypeScript + Node project boilerplate",
     "author": "Raphaël Thériault <raphael_theriault@outlook.com>",
+    "private": true,
     "main": "src/index.ts",
     "license": "MIT",
     "engines": {
