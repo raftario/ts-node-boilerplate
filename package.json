@@ -10,8 +10,8 @@
         "node": ">=12"
     },
     "scripts": {
-        "dev": "ts-node-dev src/index.ts",
-        "start": "ts-node --transpile-only src/index.ts",
+        "start:dev": "ts-node-dev src/index.ts",
+        "start:prod": "ts-node --transpile-only src/index.ts",
         "lint:fix": "eslint --fix **/*.{ts,js} && prettier --write **/*.{json,md,yml}",
         "lint:check": "eslint **/*.{ts,js} && prettier --check **/*.{json,md,yml}"
     },
